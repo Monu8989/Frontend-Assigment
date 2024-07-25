@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cont{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./graph-web-abstract-4k-hn-2048x1152.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.cont h1{
+    font-size: 40px;
+    color: white;
+}
+.cont h5{
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 350px;
+    margin-bottom: 20px;
+
+}
+.card-sec{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.card{
+    width:50%;
+    height:50vh;
+    border: 0.4px solid white;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    padding: 50px;
+    /* justify-content: center; */
+    
+}
+.card h1{
+    font-size: 35px;
+    color: white;
+    margin-left: 37%;
+    margin-bottom: 20px;
+}
+.card h5{
+    font-size: 20px;
+    color: rgb(149, 227, 246);
+    margin-top: 10px;
+    margin-left: 0;
+    
+}
+.card i{
+    margin-right: 5px;
+}
+.card a{
+    font-size:28px;
+    color: white;
+    text-decoration: none;
+    margin-top: 5px;
+}
+.card a:hover{
+    color: rgb(132, 245, 166);
+}
+
+
+
+@media (max-width:480px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .cont{
+        width: 100%;
+        height:auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .cont h5{
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .card-sec{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        width: 100%;
+        height: auto;
+    }
+    .card h1{
+        margin: 0;
+    }
+}
